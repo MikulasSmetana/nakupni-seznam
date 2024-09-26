@@ -24,3 +24,22 @@ def pocet_polozek():
 
 def ukoncit_program():
     exit()
+
+# Hlavní program
+print("Výtejte v nákupním seznamu")
+value = 0
+while(value == 0):
+    x = input("Vložte příkaz: ")
+    if (x == "pridat"):
+        pridat_polozku()
+    elif(x == "odebrat"):
+        odebrat_polozku()
+    elif(x == "zobrazit"):
+        zobrazit_seznam()
+    elif(x == "seradit"):
+        seradit_seznam()
+    elif(x == "pocet_polozek"):
+        pocet_polozek()
+    elif(x == "ukoncit"):
+        ukoncit_program
+        break
